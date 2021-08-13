@@ -15,7 +15,7 @@
 <body>
     <header>
         <a href="index.html">
-            <h1 id="logo">Love Running</h1>
+            <h1 id="logo">Love Running <i class="fas fa-heartbeat"></i></h1>
         </a>
         <nav>
             <ul id="menu">
@@ -34,30 +34,26 @@
     </header>
 
     <section class="form-section">
-        <form method="POST" action="https://formdump.codeinstitute.net/">
+        <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
             <h2>Let's get you signed up!</h2>
             <label for="fname">First Name</label>
-            <input id="fname" type="text" name="first_name" required>
+            <input id="fname" name="first_name" type="text" required class="text-input">
             
             <label for="lname">Last Name</label>
-            <input id="lname" type="text" name="last_name" required>
+            <input id="lname" name="last_name" type="text" required class="text-input">
             
             <label for="email">Email Address</label>
-            <input id="email" type="email" name="email_address" required>
+            <input type="email" id="email" name="email_address" required class="text-input">
             
             <label for="road">Road</label>
-            <input id="road" type="radio" name="running_preference" value="road" required>
+            <input type="radio" id="road" name="running_preference" value="road" required>
             <label for="trail">Trail</label>
-            <input id="trail" type="radio" name="running_preference" value="trail">
-            
+            <input type="radio" id="trail" name="running_preference" value="trail" required>
             <label for="both">Both</label>
-            <input id="both" type="radio" name="running_preference" value="both">
+            <input type="radio" id="both" name="running_preference" value="both" required>
             
-            <input type="submit" value="Let's Run!" >
-            
-            
+            <input class="join-button" type="submit" value="Let's Run!" class="join-button" >
         </form>
-        
     </section>
 
     <footer>
