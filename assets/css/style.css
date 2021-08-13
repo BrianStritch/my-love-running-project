@@ -324,6 +324,13 @@ footer{
     }
 }
 /* Form */
+.form-section {
+    clear: left;
+    background: url(../images/formbg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
 
 .signup-form{
     margin:150px 10% 0 0;
